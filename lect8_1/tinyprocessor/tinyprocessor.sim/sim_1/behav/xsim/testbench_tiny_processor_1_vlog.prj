@@ -1,0 +1,10 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../../../Lec8_Tiny_Processor/fourbit_tiny_processor.v" \
+"../../../../../../Lec8_Tiny_Processor/testbench_tiny_processor_1.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,7 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/FPGA/Lec8_Tiny_Processor/fourbit_tiny_processor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fourbit_tiny_processor
+WARNING: [VRFC 10-1315] redeclaration of ansi port gpio_out is not allowed [C:/FPGA/Lec8_Tiny_Processor/fourbit_tiny_processor.v:18]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/FPGA/Lec8_Tiny_Processor/testbench_tiny_processor_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module testbench_tiny_processor_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/FPGA/lect8_1/tinyprocessor/tinyprocessor.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
