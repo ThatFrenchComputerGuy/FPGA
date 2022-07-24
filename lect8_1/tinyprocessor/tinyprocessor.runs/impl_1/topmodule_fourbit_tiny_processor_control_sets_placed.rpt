@@ -1,0 +1,72 @@
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+-------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Mon Jul 25 01:14:45 2022
+| Host         : DESKTOP-25B4PUN running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file topmodule_fourbit_tiny_processor_control_sets_placed.rpt
+| Design       : topmodule_fourbit_tiny_processor
+| Device       : xc7z020
+-------------------------------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |     9 |
+| Unused register locations in slices containing registers |    35 |
++----------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |               0 |            0 |
+| No           | No                    | Yes                    |              30 |            8 |
+| No           | Yes                   | No                     |               0 |            0 |
+| Yes          | No                    | No                     |               0 |            0 |
+| Yes          | No                    | Yes                    |              31 |            7 |
+| Yes          | Yes                   | No                     |               0 |            0 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++---------------------+-----------------------------------------+------------------+------------------+----------------+
+|     Clock Signal    |              Enable Signal              | Set/Reset Signal | Slice Load Count | Bel Load Count |
++---------------------+-----------------------------------------+------------------+------------------+----------------+
+|  count_reg_BUFG[24] | tiny_processor_inst/PC                  | btn_IBUF[0]      |                1 |              4 |
+|  count_reg_BUFG[24] | tiny_processor_inst/add_result_3        | btn_IBUF[0]      |                1 |              4 |
+|  count_reg_BUFG[24] | tiny_processor_inst/gpio_out[3]_i_1_n_0 | btn_IBUF[0]      |                1 |              4 |
+|  count_reg_BUFG[24] | tiny_processor_inst/REGA                | btn_IBUF[0]      |                1 |              4 |
+|  count_reg_BUFG[24] | tiny_processor_inst/sel_val_2           | btn_IBUF[0]      |                1 |              4 |
+|  count_reg_BUFG[24] |                                         | btn_IBUF[0]      |                1 |              5 |
+|  count_reg_BUFG[24] | tiny_processor_inst/wr_en               | btn_IBUF[0]      |                1 |              5 |
+|  count_reg_BUFG[24] | tiny_processor_inst/INST_1              | btn_IBUF[0]      |                1 |              6 |
+|  sysclk_IBUF_BUFG   |                                         | btn_IBUF[0]      |                7 |             25 |
++---------------------+-----------------------------------------+------------------+------------------+----------------+
+
+
++--------+-----------------------+
+| Fanout | Number of ControlSets |
++--------+-----------------------+
+| 4      |                     5 |
+| 5      |                     2 |
+| 6      |                     1 |
+| 16+    |                     1 |
++--------+-----------------------+
+
+

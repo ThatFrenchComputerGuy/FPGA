@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7z020clg400-1" LaunchTime="1658679211">
+  <File Type="PWROPT-DCP" Name="topmodule_fourbit_tiny_processor_pwropt.dcp"/>
+  <File Type="ROUTE-PWR" Name="topmodule_fourbit_tiny_processor_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="topmodule_fourbit_tiny_processor.tcl"/>
+  <File Type="ROUTE-PWR-SUM" Name="topmodule_fourbit_tiny_processor_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="topmodule_fourbit_tiny_processor_reports.tcl"/>
+  <File Type="BG-DRC" Name="topmodule_fourbit_tiny_processor.drc"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="topmodule_fourbit_tiny_processor_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="topmodule_fourbit_tiny_processor_timing_summary_init.rpt"/>
+  <File Type="OPT-HWDEF" Name="topmodule_fourbit_tiny_processor.hwdef"/>
+  <File Type="OPT-DCP" Name="topmodule_fourbit_tiny_processor_opt.dcp"/>
+  <File Type="OPT-DRC" Name="topmodule_fourbit_tiny_processor_drc_opted.rpt"/>
+  <File Type="OPT-TIMING" Name="topmodule_fourbit_tiny_processor_timing_summary_opted.rpt"/>
+  <File Type="PWROPT-DRC" Name="topmodule_fourbit_tiny_processor_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="topmodule_fourbit_tiny_processor_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="topmodule_fourbit_tiny_processor_placed.dcp"/>
+  <File Type="PLACE-IO" Name="topmodule_fourbit_tiny_processor_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="topmodule_fourbit_tiny_processor_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="topmodule_fourbit_tiny_processor_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="topmodule_fourbit_tiny_processor_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="topmodule_fourbit_tiny_processor_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="topmodule_fourbit_tiny_processor_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="topmodule_fourbit_tiny_processor_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-TIMING" Name="topmodule_fourbit_tiny_processor_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="topmodule_fourbit_tiny_processor_postplace_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="topmodule_fourbit_tiny_processor_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="topmodule_fourbit_tiny_processor_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="topmodule_fourbit_tiny_processor_drc_physopted.rpt"/>
+  <File Type="BG-BIT" Name="topmodule_fourbit_tiny_processor.bit"/>
+  <File Type="PHYSOPT-TIMING" Name="topmodule_fourbit_tiny_processor_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="topmodule_fourbit_tiny_processor_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="topmodule_fourbit_tiny_processor_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="topmodule_fourbit_tiny_processor_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="topmodule_fourbit_tiny_processor_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="topmodule_fourbit_tiny_processor_drc_routed.pb"/>
+  <File Type="BITSTR-MSK" Name="topmodule_fourbit_tiny_processor.msk"/>
+  <File Type="ROUTE-DRC-RPX" Name="topmodule_fourbit_tiny_processor_drc_routed.rpx"/>
+  <File Type="BG-BGN" Name="topmodule_fourbit_tiny_processor.bgn"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="topmodule_fourbit_tiny_processor_methodology_drc_routed.rpt"/>
+  <File Type="BITSTR-RBT" Name="topmodule_fourbit_tiny_processor.rbt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="topmodule_fourbit_tiny_processor_methodology_drc_routed.rpx"/>
+  <File Type="BG-BIN" Name="topmodule_fourbit_tiny_processor.bin"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="topmodule_fourbit_tiny_processor_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="topmodule_fourbit_tiny_processor_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="topmodule_fourbit_tiny_processor_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="topmodule_fourbit_tiny_processor_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="topmodule_fourbit_tiny_processor_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="topmodule_fourbit_tiny_processor_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="topmodule_fourbit_tiny_processor_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="topmodule_fourbit_tiny_processor_incremental_reuse_routed.rpt"/>
+  <File Type="RDI-RDI" Name="topmodule_fourbit_tiny_processor.vdi"/>
+  <File Type="ROUTE-CLK" Name="topmodule_fourbit_tiny_processor_clock_utilization_routed.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="topmodule_fourbit_tiny_processor_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="topmodule_fourbit_tiny_processor_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="topmodule_fourbit_tiny_processor_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="topmodule_fourbit_tiny_processor_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="topmodule_fourbit_tiny_processor_timing_summary_postroute_physopted.rpx"/>
+  <File Type="BITSTR-NKY" Name="topmodule_fourbit_tiny_processor.nky"/>
+  <File Type="BITSTR-BMM" Name="topmodule_fourbit_tiny_processor_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="topmodule_fourbit_tiny_processor.mmi"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="topmodule_fourbit_tiny_processor.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="topmodule_fourbit_tiny_processor.sysdef"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PPRDIR/../../Lec8_Tiny_Processor/fourbit_tiny_processor.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../Lec8_Tiny_Processor/topmodule_fourbit_tiny_processor.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="topmodule_fourbit_tiny_processor"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PPRDIR/../../../Users/cldle/Downloads/Zybo-Z7-Master.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2017">
+      <Desc>Default settings for Implementation.</Desc>
+    </StratHandle>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

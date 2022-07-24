@@ -1,0 +1,4 @@
+Running: xsim.dir/testbench_tiny_processor_1_behav/xsimk.exe -simmode gui -wdb testbench_tiny_processor_1_behav.wdb -simrunnum 0 -socket 49395
+Design successfully loaded
+Design Loading Memory Usage: 8696 KB (Peak: 8696 KB)
+Design Loading CPU Usage: 46 ms
